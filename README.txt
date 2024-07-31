@@ -21,6 +21,8 @@ in a powershell terminal, navigate to the project folder, run 'python -m venv ve
 this will setup a virtual environment, activate it by running '.\venv\Scripts\Activate'
 install the required packages by running 'pip install -r requirements.txt'
 install playwright browsers by running 'playwright install'
+Install the test runner by running 'pip install behave'
+
 You can then run the tests by simply running 'behave' in the project folder
 
 I've also added tags to the Scenarios, you can run them individually by running behave --tags 'scenario name'(e.g. behave --tags valid login)
